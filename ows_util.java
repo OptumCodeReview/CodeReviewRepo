@@ -80,6 +80,7 @@ public class OWSUtil {
 		
 		serviceDetailNames.put("com.uhg.optumrx.integration.MemberSearchV2", "MemberSearchV2");
 		serviceDetailNames.put("com.uhg.optumrx.integration.MemberFinder", "MemberFinder");
+		serviceDetailNames.put("com.uhg.optumrx.integration.MemberFinder", "Raja");
 
 	}
 
