@@ -197,6 +197,7 @@ public class EcsEsbAuditLogAspect {
 				}
 			} else if (object instanceof PlanDetailRequest) {
 				PlanDetailRequest request = (PlanDetailRequest) object;
+				//added variable
 				if (request.getHeader() != null
 						&& !request.getHeader().getConsumingApp().equalsIgnoreCase(OWSConstants.HEALTH_CHECK_CONSUMER)
 						&& !request.getInternalId().startsWith(OWSConstants.PLAN_DETAIL_ID_PREFIX)) {
