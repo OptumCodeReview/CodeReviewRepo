@@ -141,7 +141,6 @@ public class EcsEsbAuditLogAspect {
 	@Around("integrationLayerPoint()")
 	public Object integrationLayerLogAround(ProceedingJoinPoint joinPoint) {
 		boolean logMessage = false;
-		boolean logMessage1 = false;
 		EcsEsbAuditSupplLog ecsEsbAuditSupplLog = new EcsEsbAuditSupplLog();
 		
 		String className = joinPoint.getSignature().getDeclaringTypeName();
